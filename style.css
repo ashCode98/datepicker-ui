@@ -1,0 +1,74 @@
+*{
+    font-weight:500;
+}
+h2{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    margin-bottom: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1 .line{
+    border-left: 1px solid black;
+    height: 40px;
+}
+
+.box-1 .calender-icon{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.box-2{
+    width: 299.5px;
+    height: 287.5px;
+    border: 1.5px solid black;
+}
+
+.box-2 .upper{
+    display: flex;
+    border-collapse: collapse;
+    justify-content: space-between;
+    margin-top: 4px;
+    padding-bottom: 9.7px;
+}
+
+.box-2 .upper img{
+    width: 20px;
+    height: 20px;
+    cursor:pointer;
+    margin: 2px 25px;
+}
+
+.table{
+    border-collapse: collapse;
+    border-bottom: none;
+    width: 300px;
+    height: 250px;
+}
+
+tr, td{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+    text-align: center;
+}
+
+.days{
+    border-right: none;
+    border-top: none;
+}
